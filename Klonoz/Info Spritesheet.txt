@@ -1,3 +1,18 @@
 ///Info de spritesheet general
 
-[ID Sprite] [ID Animación] [Nombre del Personaje] [Nombre de Animación] 
+[ID Tipo de Sprite] [ID Sprite] [ID Animación] [Nombre del Personaje] [Nombre de Animación] 
+
+Ejemplo: 01_001_01_Engear_Idle
+___________________________________________________________________________________________
+
+ID Tipo de Sprite
+
+01 - Player
+02 - Enemigos
+03 - NPC
+04 - Jefes y Mini Jefes
+05 - Particulas
+06 - Hud
+07 - Cinemática
+
+___________________________________________________________________________________________
