@@ -61,6 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Global Scripts\block.cs" />
+    <Compile Include="Assets\Global Scripts\layer.cs" />
+    <Compile Include="Assets\Global Scripts\level.cs" />
+    <Compile Include="Assets\Global Scripts\MobileObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />

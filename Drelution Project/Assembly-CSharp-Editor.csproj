@@ -74,6 +74,7 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\SpriteDepthInMapEditor.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\Tiled2UnityMenuItems.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
+    <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledImported.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Patricio Diaz/source/repos/Drelution/Drelution Project/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
