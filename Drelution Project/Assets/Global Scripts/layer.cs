@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class layer : MobileObject
+public class Layer : MobileObject
 {
+    public const int BlockSize = 16;
     public bool show = true;
     public int selectedX = 0, selectedY = 0;
     public int blockSize;
@@ -21,7 +22,7 @@ public class layer : MobileObject
 
     public int getXPos(float X)
     {
-        int xint = (int)x;
+        int xint = (int)base.X;
         int Xint = (int)X;
 
         return (Xint - xint) / blockSize;
@@ -29,7 +30,7 @@ public class layer : MobileObject
 
     public int getYPos(float Y)
     {
-        int yint = (int)y;
+        int yint = (int)base.Y;
         int Yint = (int)Y;
 
         return (Yint - height * blockSize + yint) / blockSize;

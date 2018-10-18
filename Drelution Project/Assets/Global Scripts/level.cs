@@ -1,17 +1,17 @@
 ﻿using UnityEngine;
 
-public class level : MonoBehaviour
+public class Level : MonoBehaviour
 {
-    public layer[] layers;
+    public Layer[] Layers;
 
-    private static level instance;
-    public static level Instance
+    private static Level instance;
+    public static Level Instance
     {
         get
         {
             if (instance == null)
             {
-                instance = GameObject.FindObjectOfType<level>();
+                instance = FindObjectOfType<Level>();
             }
             return instance;
         }

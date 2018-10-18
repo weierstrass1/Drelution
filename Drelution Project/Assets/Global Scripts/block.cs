@@ -30,7 +30,7 @@ public abstract class block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void left(MobileObject target, Transform contactPoint, float x, float y, int blockSize, layer l);
+    public abstract void Left(MobileObject target, Transform contactPoint, float x, float y, Layer l);
 
     /// <summary>
     /// It is called when a Left Contact Point is into the block.
@@ -40,7 +40,7 @@ public abstract class block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void right(MobileObject target, Transform contactPoint, float x, float y, int blockSize, layer l);
+    public abstract void Right(MobileObject target, Transform contactPoint, float x, float y, Layer l);
 
     /// <summary>
     /// It is called when a Down Contact Point is into the block.
@@ -50,9 +50,9 @@ public abstract class block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void up(MobileObject target, Transform contactPoint, float x, float y, int blockSize, layer l);
+    public abstract void Up(MobileObject target, Transform contactPoint, float x, float y, Layer l);
 
-    public abstract void angleDetector(MobileObject target, Transform contactPoint, float x, float y, int blockSize, layer l);
+    public abstract void AngleDetector(MobileObject target, Transform contactPoint, float x, float y, Layer l);
 
     /// <summary>
     /// It is called when a Up Contact Point is into the block.
@@ -62,5 +62,5 @@ public abstract class block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void down(MobileObject target, Transform contactPoint, float x, float y, int blockSize, layer l);
+    public abstract void Down(MobileObject target, Transform contactPoint, float x, float y, Layer l);
 }
