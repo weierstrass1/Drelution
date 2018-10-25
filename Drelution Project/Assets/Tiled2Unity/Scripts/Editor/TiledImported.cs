@@ -23,7 +23,7 @@ public class tiledTimported : ICustomTiledImporter
 
         TiledMap tm = prefab.GetComponent<TiledMap>();
 
-        l.blockSize = tm.TileHeight;
+        Layer.BlockSize = tm.TileHeight;
 
         l.width = tm.NumTilesWide;
         l.height = tm.NumTilesHigh;

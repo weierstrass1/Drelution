@@ -58,8 +58,8 @@ public class layerEditorEscene : Editor
                 int minX = Mathf.Min(t.initX, ex);
                 int minY = Mathf.Min(t.initY, ey);
 
-                Handles.DrawSolidRectangleWithOutline(new Rect(minX * t.blockSize, minY * t.blockSize,
-                    ((maxX - minX) * t.blockSize) + t.blockSize, ((maxY - minY) * t.blockSize) + t.blockSize),
+                Handles.DrawSolidRectangleWithOutline(new Rect(minX * Layer.BlockSize, minY * Layer.BlockSize,
+                    ((maxX - minX) * Layer.BlockSize) + Layer.BlockSize, ((maxY - minY) * Layer.BlockSize) + Layer.BlockSize),
                     new Color32(0, 0, 128, 128), new Color32(0, 0, 224, 128));
             }
 
@@ -67,14 +67,14 @@ public class layerEditorEscene : Editor
 
             for (int i = 0; i < t.width; i++)
             {
-                vs.Add(new Vector3(t.X + i * t.blockSize, t.Y, -10));
-                vs.Add(new Vector3(t.X + i * t.blockSize, t.Y - (t.height * t.blockSize), -10));
+                vs.Add(new Vector3(t.X + i * Layer.BlockSize, t.Y, -10));
+                vs.Add(new Vector3(t.X + i * Layer.BlockSize, t.Y - (t.height * Layer.BlockSize), -10));
             }
 
             for (int i = 0; i < t.height; i++)
             {
-                vs.Add(new Vector3(t.X, t.Y - t.height * t.blockSize + i * t.blockSize, -10));
-                vs.Add(new Vector3(t.X + (t.width * t.blockSize), t.Y - t.height * t.blockSize + i * t.blockSize, -10));
+                vs.Add(new Vector3(t.X, t.Y - t.height * Layer.BlockSize + i * Layer.BlockSize, -10));
+                vs.Add(new Vector3(t.X + (t.width * Layer.BlockSize), t.Y - t.height * Layer.BlockSize + i * Layer.BlockSize, -10));
             }
 
             Handles.DrawLines(vs.ToArray());
@@ -103,8 +103,8 @@ public class layerEditorEscene : Editor
                     {
                         if (t.map[i + (t.width * j)] >= 0 && Layer.AllBlocks != null && Layer.AllBlocks.Length > t.map[i + (t.width * j)])
                         {
-                            x = t.X + (i * t.blockSize) + (t.blockSize / 2);
-                            y = t.Y - t.height * t.blockSize + ((j * t.blockSize) + (t.blockSize / 2));
+                            x = t.X + (i * Layer.BlockSize) + (Layer.BlockSize / 2);
+                            y = t.Y - t.height * Layer.BlockSize + ((j * Layer.BlockSize) + (Layer.BlockSize / 2));
 
                             v = new Vector3(x, y, 0);
 

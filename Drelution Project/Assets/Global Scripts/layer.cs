@@ -3,13 +3,13 @@
 [System.Serializable]
 public class Layer : MobileObject
 {
-    public const int BlockSize = 16;
     public bool show = true;
     public int selectedX = 0, selectedY = 0;
-    public int blockSize;
+    public static int BlockSize = 16;
     public int width;
     public int height;
-    public static block[] AllBlocks = { 
+    public static Block[] AllBlocks = { 
+        new SolidBlock()
     };
     public int state = 0;
 
@@ -25,7 +25,7 @@ public class Layer : MobileObject
         int xint = (int)base.X;
         int Xint = (int)X;
 
-        return (Xint - xint) / blockSize;
+        return (Xint - xint) / BlockSize;
     }
 
     public int getYPos(float Y)
@@ -33,7 +33,7 @@ public class Layer : MobileObject
         int yint = (int)base.Y;
         int Yint = (int)Y;
 
-        return (Yint - height * blockSize + yint) / blockSize;
+        return (Yint - height * BlockSize + yint) / BlockSize;
     }
 
 
