@@ -62,7 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Global Scripts\Block.cs" />
+    <Compile Include="Assets\Global Scripts\Blocks\DelegateBlock.cs" />
     <Compile Include="Assets\Global Scripts\Blocks\SolidBlock.cs" />
+    <Compile Include="Assets\Global Scripts\Blocks\SolidSlope45.cs" />
+    <Compile Include="Assets\Global Scripts\Blocks\solidSlopeBlock.cs" />
     <Compile Include="Assets\Global Scripts\Layer.cs" />
     <Compile Include="Assets\Global Scripts\Level.cs" />
     <Compile Include="Assets\Global Scripts\MobileObject.cs" />

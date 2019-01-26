@@ -117,29 +117,18 @@ public abstract class MobileObject : MonoBehaviour
 
     public void ApplyLayerInteraction()
     {
-        //float lastY = Y;
-        //float lastX = X;
         LayerInteractionY();
         LayerInteractionX();
-
-        /*if (!BlockedAngleDetector && BlockedFromBelow && (BlockedFromLeft || BlockedFromRight))
-        {
-            BlockedFromBelow = false;
-            Y = lastY;
-        }*/
     }
     public void LayerInteractionX()
     {
         Layer[] layers = Level.Instance.Layers;
 
-        float deltaXSp;
         BlockedFromLeft = false;
         BlockedFromRight = false;
 
         for (int i = 0; i < layers.Length; i++)
         {
-            deltaXSp = XSpeed - layers[i].XSpeed;
-
             if (RightDetector != null && RightDetector.Length > 0)
             {
                 for (int j = 0; j < RightDetector.Length; j++)

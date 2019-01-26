@@ -9,7 +9,8 @@ public class Layer : MobileObject
     public int width;
     public int height;
     public static Block[] AllBlocks = { 
-        new SolidBlock()
+        new SolidBlock(),
+        new SolidSlope45(),
     };
     public int state = 0;
 

@@ -14,15 +14,13 @@ public class SolidBlock : Block
 
     public override void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, Layer l)
     {
-        if (target.YSpeed - l.YSpeed > 0) return;
+        if (target.YSpeed - l.YSpeed >= 0) return;
 
-        float bx = GetX(x, l);
         float by = GetY(y, l);
 
-        float cx = contactPoint.position.x;
         float cy = contactPoint.position.y;
 
-        float dy = cy + 1 - (by + Layer.BlockSize);
+        float dy = cy - (by + Layer.BlockSize);
 
         target.Y -= dy;
 
@@ -35,15 +33,13 @@ public class SolidBlock : Block
 
     public override void Down(MobileObject target, Transform contactPoint, int x, int y, Layer l)
     {
-        if (target.YSpeed - l.YSpeed < 0) return;
+        if (target.YSpeed - l.YSpeed <= 0) return;
 
-        float bx = GetX(x, l);
         float by = GetY(y, l);
 
-        float cx = contactPoint.position.x;
         float cy = contactPoint.position.y;
 
-        float dy = by - cy + 1;
+        float dy = by - cy;
 
         target.BlockedFromAbove = true;
 
@@ -53,15 +49,13 @@ public class SolidBlock : Block
 
     public override void Left(MobileObject target, Transform contactPoint, int x, int y, Layer l)
     {
-        if (target.XSpeed - l.XSpeed < 0) return;
+        if (target.XSpeed - l.XSpeed <= 0) return;
 
         float bx = GetX(x, l);
-        float by = GetY(y, l);
 
         float cx = contactPoint.position.x;
-        float cy = contactPoint.position.y;
 
-        float dx = cx - 1 - bx;
+        float dx = cx - bx;
 
         target.X -= dx;
 
@@ -72,15 +66,13 @@ public class SolidBlock : Block
 
     public override void Right(MobileObject target, Transform contactPoint, int x, int y, Layer l)
     {
-        if (target.XSpeed - l.XSpeed > 0) return;
+        if (target.XSpeed - l.XSpeed >= 0) return;
 
         float bx = GetX(x, l);
-        float by = GetY(y, l);
 
         float cx = contactPoint.position.x;
-        float cy = contactPoint.position.y;
 
-        float dx = bx + Layer.BlockSize - cx - 1;
+        float dx = bx + Layer.BlockSize - cx;
 
         target.X += dx;
 
@@ -91,15 +83,13 @@ public class SolidBlock : Block
 
     public override void Up(MobileObject target, Transform contactPoint, int x, int y, Layer l)
     {
-        if (target.YSpeed - l.YSpeed > 0) return;
+        if (target.YSpeed - l.YSpeed >= 0) return;
 
-        float bx = GetX(x, l);
         float by = GetY(y, l);
 
-        float cx = contactPoint.position.x;
         float cy = contactPoint.position.y;
 
-        float dy = cy + 1 - (by + Layer.BlockSize);
+        float dy = cy - (by + Layer.BlockSize);
 
         target.BlockedFromBelow = true;
 
