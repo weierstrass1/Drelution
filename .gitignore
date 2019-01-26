@@ -11,3 +11,4 @@ Drelution Project/.vs/Drelution Project/v15/Server/sqlite3/storage.ide-wal
 Drelution Project/obj/Debug/Assembly-CSharp.csprojResolveAssemblyReference.cache
 Drelution Project/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 Drelution Project/obj/Debug/Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+*.cache
