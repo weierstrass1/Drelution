@@ -3,7 +3,7 @@ using UnityEditor;
 
 public class layerEditor : EditorWindow
 {
-    public static Layer obj = null;
+    public static BlockLayer obj = null;
 
     public int selectedTileX = 0, selectedTileY = 0;
 
@@ -19,7 +19,7 @@ public class layerEditor : EditorWindow
 
     void OnGUI()
     {
-        obj = (Layer)EditorGUI.ObjectField(new Rect(3, 6, position.width - 6, 20), "Layer", obj, typeof(Layer), true);
+        obj = (BlockLayer)EditorGUI.ObjectField(new Rect(3, 6, position.width - 6, 20), "Layer", obj, typeof(BlockLayer), true);
 
         if (obj != null)
         {
@@ -52,13 +52,13 @@ public class layerEditor : EditorWindow
                     int maxX = Mathf.Max(obj.initX, obj.endX);
                     int maxY = Mathf.Max(obj.initY, obj.endY);
 
-                    string[] blocksTypes = new string[Layer.AllBlocks.Length + 1];
+                    string[] blocksTypes = new string[BlockLayer.AllBlocks.Length + 1];
 
                     blocksTypes[0] = "Empty Block";
 
                     for (int i = 1; i < blocksTypes.Length; i++)
                     {
-                        blocksTypes[i] = Layer.AllBlocks[i - 1].BlockName;
+                        blocksTypes[i] = BlockLayer.AllBlocks[i - 1].BlockName;
                     }
 
                     lastBlock = EditorGUI.Popup(new Rect(3, 186, 300, 20), lastBlock, blocksTypes);

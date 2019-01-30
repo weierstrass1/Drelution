@@ -5,7 +5,7 @@ using System.Text;
 
 public class SolidSlope45 : SolidSlopeBlock
 {
-    public SolidSlope45() : base(0, Layer.BlockSize, 0, Layer.BlockSize)
+    public SolidSlope45() : base(0, BlockLayer.BlockSize, 0, BlockLayer.BlockSize)
     {
         blockName = "45° Degrees";
     }

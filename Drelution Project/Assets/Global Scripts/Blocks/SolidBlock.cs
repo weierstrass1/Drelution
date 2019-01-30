@@ -5,14 +5,14 @@ using UnityEngine;
 public class SolidBlock : Block
 {
     public SolidBlock() : base("Solid Block", new Color32(255, 0, 0, 128),
-        new Vector3(-Layer.BlockSize / 2, -Layer.BlockSize / 2), 
-        new Vector3(-Layer.BlockSize / 2, Layer.BlockSize / 2),
-        new Vector3(Layer.BlockSize / 2, Layer.BlockSize / 2),
-        new Vector3(Layer.BlockSize / 2, -Layer.BlockSize / 2))
+        new Vector3(-BlockLayer.BlockSize / 2, -BlockLayer.BlockSize / 2), 
+        new Vector3(-BlockLayer.BlockSize / 2, BlockLayer.BlockSize / 2),
+        new Vector3(BlockLayer.BlockSize / 2, BlockLayer.BlockSize / 2),
+        new Vector3(BlockLayer.BlockSize / 2, -BlockLayer.BlockSize / 2))
     {
     }
 
-    public override void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
         if (target.YSpeed - l.YSpeed >= 0) return;
 
@@ -20,18 +20,16 @@ public class SolidBlock : Block
 
         float cy = contactPoint.position.y;
 
-        float dy = cy - (by + Layer.BlockSize);
+        float dy = cy - (by + BlockLayer.BlockSize);
 
         target.Y -= dy;
 
         target.BlockedAngleDetector = true;
         target.BlockedFromBelow = true;
         target.TerrainAngle = 0;
-
-        target.YSpeed = 0;
     }
 
-    public override void Down(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Down(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
         if (target.YSpeed - l.YSpeed <= 0) return;
 
@@ -47,7 +45,7 @@ public class SolidBlock : Block
         target.YSpeed = 0;
     }
 
-    public override void Left(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Left(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
         if (target.XSpeed - l.XSpeed <= 0) return;
 
@@ -64,7 +62,7 @@ public class SolidBlock : Block
         target.XSpeed = 0;
     }
 
-    public override void Right(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Right(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
         if (target.XSpeed - l.XSpeed >= 0) return;
 
@@ -72,7 +70,7 @@ public class SolidBlock : Block
 
         float cx = contactPoint.position.x;
 
-        float dx = bx + Layer.BlockSize - cx;
+        float dx = bx + BlockLayer.BlockSize - cx;
 
         target.X += dx;
 
@@ -81,7 +79,7 @@ public class SolidBlock : Block
         target.XSpeed = 0;
     }
 
-    public override void Up(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Up(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
         if (target.YSpeed - l.YSpeed >= 0) return;
 
@@ -89,14 +87,13 @@ public class SolidBlock : Block
 
         float cy = contactPoint.position.y;
 
-        float dy = cy - (by + Layer.BlockSize);
+        float dy = cy - (by + BlockLayer.BlockSize);
 
         target.BlockedFromBelow = true;
 
         if (!target.BlockedAngleDetector) 
         {
             target.Y -= dy;
-            target.YSpeed = 0;
         }
     }
 }

@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\animationEditor.cs" />
+    <Compile Include="Assets\Editor\charComponentEditor.cs" />
+    <Compile Include="Assets\Editor\graphicEditor.cs" />
     <Compile Include="Assets\Editor\layerEditor.cs" />
     <Compile Include="Assets\Editor\layerEditorEscene.cs" />
     <Compile Include="Assets\Editor\MobileObjectEditor.cs" />

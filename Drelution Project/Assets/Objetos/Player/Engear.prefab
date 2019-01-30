@@ -1,0 +1,3056 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1229470546422250}
+  m_IsPrefabAsset: 1
+--- !u!1 &1007255367906598
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4570889020669526}
+  m_Layer: 0
+  m_Name: r1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1075969279395736
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4931024760934172}
+  m_Layer: 0
+  m_Name: t1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1076452009457926
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4707075064820590}
+  m_Layer: 0
+  m_Name: Bottom
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1106184044221630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4928609016781244}
+  m_Layer: 0
+  m_Name: l2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1123016787981576
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4594191858183946}
+  m_Layer: 0
+  m_Name: Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1157749417785632
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4552222048043298}
+  m_Layer: 0
+  m_Name: Detectors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1229470546422250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4010800652845864}
+  - component: {fileID: 114509123948161340}
+  m_Layer: 0
+  m_Name: Engear
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1231619731611734
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4253886340399204}
+  m_Layer: 0
+  m_Name: Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1462123537702822
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4203096855438936}
+  m_Layer: 0
+  m_Name: a2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1504171140480822
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4094267139130986}
+  m_Layer: 0
+  m_Name: Top
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1511393481818840
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4929527079980662}
+  m_Layer: 0
+  m_Name: r2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1567104364629562
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4660747727862336}
+  m_Layer: 0
+  m_Name: b2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1599433740051510
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4713952791449364}
+  - component: {fileID: 212249252529359120}
+  - component: {fileID: 114096112442632836}
+  m_Layer: 0
+  m_Name: Body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1630197883436162
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4973271851545992}
+  m_Layer: 0
+  m_Name: a1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1660698891845612
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4005570073817152}
+  m_Layer: 0
+  m_Name: t2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1709387027004030
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893382965529368}
+  m_Layer: 0
+  m_Name: Angle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1713032593240352
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4101667863445020}
+  m_Layer: 0
+  m_Name: l1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1735474506316640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4796141568400140}
+  - component: {fileID: 114280493825197546}
+  m_Layer: 0
+  m_Name: GraphicsComponent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1794558428203334
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4303318456487180}
+  m_Layer: 0
+  m_Name: b1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4005570073817152
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660698891845612}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4094267139130986}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4010800652845864
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229470546422250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 96, y: 143, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4796141568400140}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4094267139130986
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504171140480822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4931024760934172}
+  - {fileID: 4005570073817152}
+  m_Father: {fileID: 4552222048043298}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4101667863445020
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1713032593240352}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4253886340399204}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4203096855438936
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462123537702822}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4893382965529368}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4253886340399204
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1231619731611734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4101667863445020}
+  - {fileID: 4928609016781244}
+  m_Father: {fileID: 4552222048043298}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4303318456487180
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1794558428203334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4707075064820590}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4552222048043298
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1157749417785632}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4707075064820590}
+  - {fileID: 4094267139130986}
+  - {fileID: 4253886340399204}
+  - {fileID: 4594191858183946}
+  - {fileID: 4893382965529368}
+  m_Father: {fileID: 4796141568400140}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4570889020669526
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1007255367906598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4594191858183946}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4594191858183946
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1123016787981576}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4570889020669526}
+  - {fileID: 4929527079980662}
+  m_Father: {fileID: 4552222048043298}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4660747727862336
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1567104364629562}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4707075064820590}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4707075064820590
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076452009457926}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4303318456487180}
+  - {fileID: 4660747727862336}
+  m_Father: {fileID: 4552222048043298}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4713952791449364
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599433740051510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4796141568400140}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4796141568400140
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735474506316640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4552222048043298}
+  - {fileID: 4713952791449364}
+  m_Father: {fileID: 4010800652845864}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4893382965529368
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709387027004030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4973271851545992}
+  - {fileID: 4203096855438936}
+  m_Father: {fileID: 4552222048043298}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4928609016781244
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106184044221630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4253886340399204}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4929527079980662
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511393481818840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4594191858183946}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4931024760934172
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1075969279395736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4094267139130986}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4973271851545992
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630197883436162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4893382965529368}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114096112442632836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599433740051510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13830355caf7da4cb29bb152cd07763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentFrame: 0
+  allFrames:
+  - index: 0
+    name: 01_001_01_Engear_Idle0
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 1
+    name: 01_001_01_Engear_Idle1
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 2
+    name: 01_001_01_Engear_Idle2
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 3
+    name: 01_001_01_Engear_Idle3
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300006, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 4
+    name: 01_001_02_Engear_Walk4
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 5
+    name: 01_001_02_Engear_Walk5
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 6
+    name: 01_001_02_Engear_Walk6
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 7
+    name: 01_001_02_Engear_Walk7
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300006, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 8
+    name: 01_001_02_Engear_Walk8
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300008, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 9
+    name: 01_001_02_Engear_Walk9
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300010, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 10
+    name: 01_001_02_Engear_Walk10
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300012, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 11
+    name: 01_001_02_Engear_Walk11
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300014, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 12
+    name: 01_001_11_Engear_Run12
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 13
+    name: 01_001_11_Engear_Run13
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 14
+    name: 01_001_11_Engear_Run14
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 15
+    name: 01_001_11_Engear_Run15
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300006, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 16
+    name: 01_001_11_Engear_Run16
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300008, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 17
+    name: 01_001_11_Engear_Run17
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300010, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 18
+    name: 01_001_11_Engear_Run18
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300012, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 19
+    name: 01_001_03_Engear_Jump19
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: cfab3254c361c474abac29777aade348, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 20
+    name: 01_001_03_Engear_Jump20
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: cfab3254c361c474abac29777aade348, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 21
+    name: 01_001_03_Engear_Jump21
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: cfab3254c361c474abac29777aade348, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 22
+    name: 01_001_04_Engear_JumpSide22
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: 6d2f7aeb50890264eb7058da76bbc457, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 23
+    name: 01_001_04_Engear_JumpSide23
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: 6d2f7aeb50890264eb7058da76bbc457, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 24
+    name: 01_001_04_Engear_JumpSide24
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: 6d2f7aeb50890264eb7058da76bbc457, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 25
+    name: 01_001_05_Engear_Fall25
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: 0240fc9eb79efef49a0aec45c3ce6aa1, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 26
+    name: 01_001_05_Engear_Fall26
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: 0240fc9eb79efef49a0aec45c3ce6aa1, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 27
+    name: 01_001_05_Engear_Fall27
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: 0240fc9eb79efef49a0aec45c3ce6aa1, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 28
+    name: 01_001_06_Engear_FallSide28
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: e81d3640afff0304eb502b48cec181f2, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 29
+    name: 01_001_06_Engear_FallSide29
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: e81d3640afff0304eb502b48cec181f2, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 30
+    name: 01_001_06_Engear_FallSide30
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: e81d3640afff0304eb502b48cec181f2, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 31
+    name: 01_001_07_Engear_FallGround31
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: c2422c5d11f29eb4c8cfb8b649ee751c, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 32
+    name: 01_001_07_Engear_FallGround32
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: c2422c5d11f29eb4c8cfb8b649ee751c, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 33
+    name: 01_001_07_Engear_FallGround33
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: c2422c5d11f29eb4c8cfb8b649ee751c, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 34
+    name: 01_001_08_Engear_FallGroundWalk34
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: df45019af7318924f8b95c7da8f96f3e, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 35
+    name: 01_001_08_Engear_FallGroundWalk35
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: df45019af7318924f8b95c7da8f96f3e, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 36
+    name: 01_001_08_Engear_FallGroundWalk36
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: df45019af7318924f8b95c7da8f96f3e, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 37
+    name: 01_001_12_Engear_FallGrounRun37
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300000, guid: 11d29aaf36d789f4f9d6262eeb5334d9, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 38
+    name: 01_001_12_Engear_FallGrounRun38
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300002, guid: 11d29aaf36d789f4f9d6262eeb5334d9, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  - index: 39
+    name: 01_001_12_Engear_FallGrounRun39
+    fold: 0
+    mainObject: {fileID: 114096112442632836}
+    GlobalFlipX: 0
+    GlobalFlipY: 0
+    canChangeSprite: 1
+    mainSprite: {fileID: 21300004, guid: 11d29aaf36d789f4f9d6262eeb5334d9, type: 3}
+    specialXFlipSprite: 0
+    specialYFlipSprite: 0
+    specialXYFlipSprite: 0
+    xfMainSprite: {fileID: 0}
+    yfMainSprite: {fileID: 0}
+    xyfMainSprite: {fileID: 0}
+    blaxVersion: 0
+    haveBlaxVersion: 0
+    blaxMainSprite: {fileID: 0}
+    blaxSpecialXFlipSprite: 0
+    blaxSpecialYFlipSprite: 0
+    blaxSpecialXYFlipSprite: 0
+    blaxXFMainSprite: {fileID: 0}
+    blaxYFMainSprite: {fileID: 0}
+    blaxXYFMainSprite: {fileID: 0}
+    canChangeX: 0
+    canChangeY: 0
+    mainPosX: 0
+    mainPosY: 0
+  mainFlipX: 0
+  mainFlipY: 0
+  invisible: 0
+--- !u!114 &114280493825197546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735474506316640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b66b71505da950b44bcb78b1c8281ba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animations:
+  - AnimationReduction: 8
+    name: Idle
+    frames:
+    - frames:
+      - index: 0
+        name: 01_001_01_Engear_Idle0
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 1
+        name: 01_001_01_Engear_Idle1
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 2
+        name: 01_001_01_Engear_Idle2
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 3
+        name: 01_001_01_Engear_Idle3
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300006, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 01000000010000000100000001000000
+    nexts: 01000000020000000300000000000000
+    xFlips: 00000000
+    yFlips: 00000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 0
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 00000000
+  - AnimationReduction: 4
+    name: Walk
+    frames:
+    - frames:
+      - index: 4
+        name: 01_001_02_Engear_Walk4
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 5
+        name: 01_001_02_Engear_Walk5
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 6
+        name: 01_001_02_Engear_Walk6
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 7
+        name: 01_001_02_Engear_Walk7
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300006, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 8
+        name: 01_001_02_Engear_Walk8
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300008, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 9
+        name: 01_001_02_Engear_Walk9
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300010, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 10
+        name: 01_001_02_Engear_Walk10
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300012, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 11
+        name: 01_001_02_Engear_Walk11
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300014, guid: 61d5512af6c10064682bb7958e89b9d0, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 0100000001000000010000000100000001000000010000000100000001000000
+    nexts: 0100000002000000030000000400000005000000060000000700000000000000
+    xFlips: 0000000000000000
+    yFlips: 0000000000000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 1
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 0000000000000000
+  - AnimationReduction: 2
+    name: Run
+    frames:
+    - frames:
+      - index: 12
+        name: 01_001_11_Engear_Run12
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 13
+        name: 01_001_11_Engear_Run13
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 14
+        name: 01_001_11_Engear_Run14
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 15
+        name: 01_001_11_Engear_Run15
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300006, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 16
+        name: 01_001_11_Engear_Run16
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300008, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 17
+        name: 01_001_11_Engear_Run17
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300010, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 18
+        name: 01_001_11_Engear_Run18
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300012, guid: 13a12fab513e46b4e8d0fefc9b983173, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 01000000010000000100000001000000010000000100000001000000
+    nexts: 01000000020000000300000004000000050000000600000000000000
+    xFlips: 00000000000000
+    yFlips: 00000000000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 2
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 00000000000000
+  - AnimationReduction: 4
+    name: Jump
+    frames:
+    - frames:
+      - index: 19
+        name: 01_001_03_Engear_Jump19
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: cfab3254c361c474abac29777aade348, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 20
+        name: 01_001_03_Engear_Jump20
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: cfab3254c361c474abac29777aade348, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 21
+        name: 01_001_03_Engear_Jump21
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: cfab3254c361c474abac29777aade348, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000000000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 3
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 000101
+  - AnimationReduction: 4
+    name: JumpSide
+    frames:
+    - frames:
+      - index: 22
+        name: 01_001_04_Engear_JumpSide22
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: 6d2f7aeb50890264eb7058da76bbc457, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 23
+        name: 01_001_04_Engear_JumpSide23
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: 6d2f7aeb50890264eb7058da76bbc457, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 24
+        name: 01_001_04_Engear_JumpSide24
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: 6d2f7aeb50890264eb7058da76bbc457, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000000000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 4
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 010101
+  - AnimationReduction: 4
+    name: Fall
+    frames:
+    - frames:
+      - index: 25
+        name: 01_001_05_Engear_Fall25
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: 0240fc9eb79efef49a0aec45c3ce6aa1, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 26
+        name: 01_001_05_Engear_Fall26
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: 0240fc9eb79efef49a0aec45c3ce6aa1, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 27
+        name: 01_001_05_Engear_Fall27
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: 0240fc9eb79efef49a0aec45c3ce6aa1, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000000000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 5
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 000000
+  - AnimationReduction: 4
+    name: FallSide
+    frames:
+    - frames:
+      - index: 28
+        name: 01_001_06_Engear_FallSide28
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: e81d3640afff0304eb502b48cec181f2, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 29
+        name: 01_001_06_Engear_FallSide29
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: e81d3640afff0304eb502b48cec181f2, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 30
+        name: 01_001_06_Engear_FallSide30
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: e81d3640afff0304eb502b48cec181f2, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000000000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 6
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 000000
+  - AnimationReduction: 4
+    name: IdleFallGround
+    frames:
+    - frames:
+      - index: 31
+        name: 01_001_07_Engear_FallGround31
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: c2422c5d11f29eb4c8cfb8b649ee751c, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 32
+        name: 01_001_07_Engear_FallGround32
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: c2422c5d11f29eb4c8cfb8b649ee751c, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 33
+        name: 01_001_07_Engear_FallGround33
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: c2422c5d11f29eb4c8cfb8b649ee751c, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000002000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 7
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 000000
+  - AnimationReduction: 4
+    name: WalkFallGround
+    frames:
+    - frames:
+      - index: 34
+        name: 01_001_08_Engear_FallGroundWalk34
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: df45019af7318924f8b95c7da8f96f3e, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 35
+        name: 01_001_08_Engear_FallGroundWalk35
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: df45019af7318924f8b95c7da8f96f3e, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 36
+        name: 01_001_08_Engear_FallGroundWalk36
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: df45019af7318924f8b95c7da8f96f3e, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000002000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 8
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 000000
+  - AnimationReduction: 1
+    name: RunFallGround
+    frames:
+    - frames:
+      - index: 37
+        name: 01_001_12_Engear_FallGrounRun37
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300000, guid: 11d29aaf36d789f4f9d6262eeb5334d9, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 38
+        name: 01_001_12_Engear_FallGrounRun38
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300002, guid: 11d29aaf36d789f4f9d6262eeb5334d9, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    - frames:
+      - index: 39
+        name: 01_001_12_Engear_FallGrounRun39
+        fold: 0
+        mainObject: {fileID: 114096112442632836}
+        GlobalFlipX: 0
+        GlobalFlipY: 0
+        canChangeSprite: 1
+        mainSprite: {fileID: 21300004, guid: 11d29aaf36d789f4f9d6262eeb5334d9, type: 3}
+        specialXFlipSprite: 0
+        specialYFlipSprite: 0
+        specialXYFlipSprite: 0
+        xfMainSprite: {fileID: 0}
+        yfMainSprite: {fileID: 0}
+        xyfMainSprite: {fileID: 0}
+        blaxVersion: 0
+        haveBlaxVersion: 0
+        blaxMainSprite: {fileID: 0}
+        blaxSpecialXFlipSprite: 0
+        blaxSpecialYFlipSprite: 0
+        blaxSpecialXYFlipSprite: 0
+        blaxXFMainSprite: {fileID: 0}
+        blaxYFMainSprite: {fileID: 0}
+        blaxXYFMainSprite: {fileID: 0}
+        canChangeX: 0
+        canChangeY: 0
+        mainPosX: 0
+        mainPosY: 0
+    times: 010000000100000001000000
+    nexts: 010000000200000002000000
+    xFlips: 000000
+    yFlips: 000000
+    canChangeFlipX: 0
+    canChangeFlipY: 0
+    index: 9
+    currentIndex: 0
+    owner: {fileID: 114509123948161340}
+    affectedByReduction: 1
+    fold: 0
+    foldFrames: 000000
+--- !u!114 &114509123948161340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229470546422250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 329ebf90b841ba84d94cdc07286adb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mass: 0
+  Solid: 0
+  GuidedByTerrain: 1
+  AffectedByTerrain: 1
+  TerrainAngle: 0
+  IgnoreBelowInteraction: 0
+  XDirection: 0
+  YDirection: 0
+  BlockedAngleDetector: 0
+  BlockedFromBelow: 0
+  BlockedFromLeft: 0
+  BlockedFromRight: 0
+  BlockedFromAbove: 0
+  TopDetector:
+  - {fileID: 4931024760934172}
+  - {fileID: 4005570073817152}
+  BottomDetector:
+  - {fileID: 4303318456487180}
+  - {fileID: 4660747727862336}
+  LeftDetector:
+  - {fileID: 4101667863445020}
+  - {fileID: 4928609016781244}
+  RightDetector:
+  - {fileID: 4570889020669526}
+  - {fileID: 4929527079980662}
+  AngleDetector:
+  - {fileID: 4973271851545992}
+  - {fileID: 4203096855438936}
+  XSpeed: 0
+  MaxXSpeed: 0
+  MinXSpeed: 0
+  YSpeed: 0
+  MaxYSpeed: 30
+  MinYSpeed: 0
+  XAcceleration: 0
+  YAcceleration: 0
+  XFriction: 40
+  YFriction: 0
+  XGravity: 0
+  YGravity: 9.8
+  FlipY: 0
+  AnimationComponent: {fileID: 114280493825197546}
+  GraphicComponents:
+  - {fileID: 114096112442632836}
+  State: 0
+  NoRunMaxTime: 0.1
+  WalkSpeed: 12
+  RunSpeed: 16
+  Accel: 10
+  JumpSpeed: 28
+  JumpAccel: 20
+  JumpXSpeedMin: 5
+  NormalFriction: 40
+  GravityReduce: 0.65
+--- !u!212 &212249252529359120
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1599433740051510}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4dc56ff9d812f954292bfbf37fec3744, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 38, y: 38}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0

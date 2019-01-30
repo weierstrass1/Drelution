@@ -5,7 +5,7 @@ using Tiled2Unity;
 [CustomTiledImporter]
 public class tiledTimported : ICustomTiledImporter
 {
-    Layer l;
+    BlockLayer l;
     public void HandleCustomProperties(GameObject gameObject, IDictionary<string, string> customProperties)
     {
         gameObject.AddComponent<SpriteRenderer>();
@@ -17,13 +17,13 @@ public class tiledTimported : ICustomTiledImporter
 
     public void CustomizePrefab(GameObject prefab)
     {
-        prefab.AddComponent<Layer>();
+        prefab.AddComponent<BlockLayer>();
 
-        l = prefab.GetComponent<Layer>();
+        l = prefab.GetComponent<BlockLayer>();
 
         TiledMap tm = prefab.GetComponent<TiledMap>();
 
-        Layer.BlockSize = tm.TileHeight;
+        BlockLayer.BlockSize = tm.TileHeight;
 
         l.width = tm.NumTilesWide;
         l.height = tm.NumTilesHigh;

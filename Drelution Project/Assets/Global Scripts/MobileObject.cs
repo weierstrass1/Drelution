@@ -23,6 +23,7 @@ public abstract class MobileObject : MonoBehaviour
     public const float LimitSpeed = 900f;
     public const float LimitDeltaTime = 1f / 60f;
     public static readonly float LimitSpeedInMeters = LimitSpeed / PixelPerMeter;
+    public const float DefaultGravity = 80f;
     public static float DeltaTime
     {
         get
@@ -122,7 +123,7 @@ public abstract class MobileObject : MonoBehaviour
     }
     public void LayerInteractionX()
     {
-        Layer[] layers = Level.Instance.Layers;
+        BlockLayer[] layers = Level.Instance.Layers;
 
         BlockedFromLeft = false;
         BlockedFromRight = false;
@@ -141,7 +142,7 @@ public abstract class MobileObject : MonoBehaviour
 
                     if (bid >= 0)
                     {
-                        Block b = Layer.AllBlocks[bid];
+                        Block b = BlockLayer.AllBlocks[bid];
 
                         b.Left(this, RightDetector[j], x, y, layers[i]);
                     }
@@ -159,7 +160,7 @@ public abstract class MobileObject : MonoBehaviour
 
                     if (bid >= 0)
                     {
-                        Block b = Layer.AllBlocks[bid];
+                        Block b = BlockLayer.AllBlocks[bid];
 
                         b.Right(this, LeftDetector[j], x, y, layers[i]);
                     }
@@ -169,7 +170,7 @@ public abstract class MobileObject : MonoBehaviour
     }
     public void LayerInteractionY()
     {
-        Layer[] layers = Level.Instance.Layers;
+        BlockLayer[] layers = Level.Instance.Layers;
 
         for (int i = 0; i < layers.Length; i++)
         {
@@ -186,51 +187,38 @@ public abstract class MobileObject : MonoBehaviour
 
                     if (bid >= 0)
                     {
-                        Block b = Layer.AllBlocks[bid];
+                        Block b = BlockLayer.AllBlocks[bid];
 
                         b.Down(this, TopDetector[j], x, y, layers[i]);
                     }
                 }
             }
-            int selAng = 0;
 
             BlockedAngleDetector = false;
             BlockedFromBelow = false;
 
             if (AngleDetector != null && AngleDetector.Length > 0)
             {
-                if (XDirection)
+                float lastX = float.MinValue;
+                for (int j = 0; j < AngleDetector.Length; j++)
                 {
-                    for (int j = 0; j < AngleDetector.Length; j++)
+
+                    int x = layers[i].getXPos(AngleDetector[j].position.x);
+                    int y = layers[i].getYPos(AngleDetector[j].position.y);
+
+                    int bid = layers[i].getBlock(AngleDetector[j].position.x,
+                        AngleDetector[j].position.y);
+
+                    if (bid >= 0 && 
+                        (!BlockedAngleDetector || 
+                        ((lastX < AngleDetector[j].position.x && TerrainAngle > 0) ||
+                        (lastX > AngleDetector[j].position.x && TerrainAngle < 0))))
                     {
-                        if (AngleDetector[selAng].position.x < AngleDetector[j].position.x)
-                        {
-                            selAng = j;
-                        }
+                        Block b = BlockLayer.AllBlocks[bid];
+
+                        b.AngleDetector(this, AngleDetector[j], x, y, layers[i]);
+                        lastX = AngleDetector[j].position.x;
                     }
-                }
-                else
-                {
-                    for (int j = 0; j < AngleDetector.Length; j++)
-                    {
-                        if (AngleDetector[selAng].position.x > AngleDetector[j].position.x)
-                        {
-                            selAng = j;
-                        }
-                    }
-                }
-
-                int x = layers[i].getXPos(AngleDetector[selAng].position.x);
-                int y = layers[i].getYPos(AngleDetector[selAng].position.y);
-
-                int bid = layers[i].getBlock(AngleDetector[selAng].position.x,
-                    AngleDetector[selAng].position.y);
-
-                if (bid >= 0)
-                {
-                    Block b = Layer.AllBlocks[bid];
-
-                    b.AngleDetector(this, AngleDetector[selAng], x, y, layers[i]);
                 }
             }
 
@@ -246,7 +234,7 @@ public abstract class MobileObject : MonoBehaviour
 
                     if (bid >= 0)
                     {
-                        Block b = Layer.AllBlocks[bid];
+                        Block b = BlockLayer.AllBlocks[bid];
 
                         b.Up(this, BottomDetector[j], x, y, layers[i]);
                     }
@@ -293,7 +281,7 @@ public abstract class MobileObject : MonoBehaviour
     }
     public void ApplyMinMaxX()
     {
-        if (MaxXSpeed >= 0)
+        if (MaxXSpeed > 0)
         {
             if (XSpeed > 0 && XSpeed > MaxXSpeed) XSpeed = MaxXSpeed;
             else if (XSpeed < 0 && XSpeed < -MaxXSpeed) XSpeed = -MaxXSpeed;
@@ -310,7 +298,7 @@ public abstract class MobileObject : MonoBehaviour
     }
     public void ApplyMinMaxY()
     {
-        if (MaxYSpeed >= 0)
+        if (MaxYSpeed > 0)
         {
             if (YSpeed > 0 && YSpeed > MaxYSpeed) YSpeed = MaxYSpeed;
             else if (YSpeed < 0 && YSpeed < -MaxYSpeed) YSpeed = -MaxYSpeed;

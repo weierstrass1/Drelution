@@ -29,14 +29,14 @@ public abstract class Block
         get { return vertices; }
     }
 
-    public float GetX(int x, Layer l)
+    public float GetX(int x, BlockLayer l)
     {
-        return l.X + x * Layer.BlockSize;
+        return l.X + x * BlockLayer.BlockSize;
     }
 
-    public float GetY(int y, Layer l)
+    public float GetY(int y, BlockLayer l)
     {
-        return (l.Y - (l.height * Layer.BlockSize)) + y * Layer.BlockSize;
+        return (l.Y - (l.height * BlockLayer.BlockSize)) + y * BlockLayer.BlockSize;
     }
 
     /// <summary>
@@ -47,7 +47,7 @@ public abstract class Block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void Left(MobileObject target, Transform contactPoint, int x, int y, Layer l);
+    public abstract void Left(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l);
 
     /// <summary>
     /// It is called when a Left Contact Point is into the block.
@@ -57,7 +57,7 @@ public abstract class Block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void Right(MobileObject target, Transform contactPoint, int x, int y, Layer l);
+    public abstract void Right(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l);
 
     /// <summary>
     /// It is called when a Down Contact Point is into the block.
@@ -67,9 +67,9 @@ public abstract class Block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void Up(MobileObject target, Transform contactPoint, int x, int y, Layer l);
+    public abstract void Up(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l);
 
-    public abstract void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, Layer l);
+    public abstract void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l);
 
     /// <summary>
     /// It is called when a Up Contact Point is into the block.
@@ -79,5 +79,5 @@ public abstract class Block
     /// <param name="x">X position of the block</param>
     /// <param name="y">Y position of the block</param>
     /// <param name="blockSize">Size of the block</param>
-    public abstract void Down(MobileObject target, Transform contactPoint, int x, int y, Layer l);
+    public abstract void Down(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l);
 }

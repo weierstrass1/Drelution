@@ -18,15 +18,15 @@ public abstract class SolidSlopeBlock : SolidBlock
         angle = (180 * Mathf.Atan(m)) / (Mathf.PI);
         vertices = new Vector3[6];
 
-        vertices[0] = new Vector3(-Layer.BlockSize / 2, Layer.BlockSize / 2);
-        vertices[1] = new Vector3(x1 - (Layer.BlockSize / 2), y1 - (Layer.BlockSize / 2));
-        vertices[2] = new Vector3(x2 - (Layer.BlockSize / 2), y2 - (Layer.BlockSize / 2));
-        vertices[3] = new Vector3(Layer.BlockSize / 2, Layer.BlockSize / 2);
-        vertices[4] = new Vector3(Layer.BlockSize / 2, -Layer.BlockSize / 2);
-        vertices[5] = new Vector3(-Layer.BlockSize / 2, -Layer.BlockSize / 2);
+        vertices[0] = new Vector3(-BlockLayer.BlockSize / 2, y1 - (BlockLayer.BlockSize / 2));
+        vertices[1] = new Vector3(x1 - (BlockLayer.BlockSize / 2), y1 - (BlockLayer.BlockSize / 2));
+        vertices[2] = new Vector3(x2 - (BlockLayer.BlockSize / 2), y2 - (BlockLayer.BlockSize / 2));
+        vertices[3] = new Vector3(BlockLayer.BlockSize / 2, y2 - (BlockLayer.BlockSize / 2));
+        vertices[4] = new Vector3(BlockLayer.BlockSize / 2, -BlockLayer.BlockSize / 2);
+        vertices[5] = new Vector3(-BlockLayer.BlockSize / 2, -BlockLayer.BlockSize / 2);
     }
 
-    public override void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void AngleDetector(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
         float contactX = contactPoint.position.x;
         float contactY = contactPoint.position.y;
@@ -57,26 +57,37 @@ public abstract class SolidSlopeBlock : SolidBlock
         }
     }
 
-    public override void Left(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Down(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
+        if (angle != 0) return;
+        base.Down(target, contactPoint, x, y, l);
+    }
+
+    public override void Left(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
+    {
+        if (angle >= 0 && target.XSpeed >= 0) return;
+        if (angle <= 0 && target.XSpeed <= 0) return;
         float by = GetY(y, l);
         float contactY = contactPoint.position.y;
 
-        if(contactY <= by + y1)
+        if(contactY < by + y1)
             base.Left(target, contactPoint, x, y, l);
     }
 
-    public override void Right(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Right(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
+        if (angle <= 0 && target.XSpeed >= 0) return;
+        if (angle >= 0 && target.XSpeed <= 0) return;
         float by = GetY(y, l);
         float contactY = contactPoint.position.y;
 
-        if (contactY <= by + y2)
+        if (contactY < by + y2)
             base.Right(target, contactPoint, x, y, l);
     }
 
-    public override void Up(MobileObject target, Transform contactPoint, int x, int y, Layer l)
+    public override void Up(MobileObject target, Transform contactPoint, int x, int y, BlockLayer l)
     {
+        if (target.BlockedAngleDetector) return;
         float contactX = contactPoint.position.x;
         float contactY = contactPoint.position.y;
         float bx = GetX(x, l);

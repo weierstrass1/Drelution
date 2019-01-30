@@ -2,7 +2,7 @@
 
 public class Level : MonoBehaviour
 {
-    public Layer[] Layers;
+    public BlockLayer[] Layers;
 
     private static Level instance;
     public static Level Instance

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [System.Serializable]
-public class Layer : MobileObject
+public class BlockLayer : MobileObject
 {
     public bool show = true;
     public int selectedX = 0, selectedY = 0;
@@ -9,8 +9,12 @@ public class Layer : MobileObject
     public int width;
     public int height;
     public static Block[] AllBlocks = { 
+        new DelegateBlock(),
         new SolidBlock(),
-        new SolidSlope45(),
+        new SolidBlock20_56Part1(),
+        new SolidBlock20_56Part2(),
+        new SolidBlock20_56Part3(),
+        new SolidSlope45()
     };
     public int state = 0;
 

@@ -62,14 +62,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Global Scripts\block.cs" />
+    <Compile Include="Assets\Global Scripts\BlockLayer.cs" />
     <Compile Include="Assets\Global Scripts\Blocks\DelegateBlock.cs" />
     <Compile Include="Assets\Global Scripts\Blocks\SolidBlock.cs" />
+    <Compile Include="Assets\Global Scripts\Blocks\SolidBlock20-56Part1.cs" />
+    <Compile Include="Assets\Global Scripts\Blocks\SolidBlock20-56Part2.cs" />
+    <Compile Include="Assets\Global Scripts\Blocks\SolidBlock20-56Part3.cs" />
     <Compile Include="Assets\Global Scripts\Blocks\SolidSlope45.cs" />
     <Compile Include="Assets\Global Scripts\Blocks\solidSlopeBlock.cs" />
-    <Compile Include="Assets\Global Scripts\layer.cs" />
     <Compile Include="Assets\Global Scripts\Level.cs" />
     <Compile Include="Assets\Global Scripts\MobileObject.cs" />
+    <Compile Include="Assets\Objetos\AnimatedObject.cs" />
+    <Compile Include="Assets\Objetos\animation.cs" />
+    <Compile Include="Assets\Objetos\animationComponent.cs" />
+    <Compile Include="Assets\Objetos\frame.cs" />
+    <Compile Include="Assets\Objetos\frameList.cs" />
+    <Compile Include="Assets\Objetos\graphicComponent.cs" />
     <Compile Include="Assets\Objetos\Player\Engear.cs" />
+    <Compile Include="Assets\Objetos\StateMachineObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\CircleObject.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GameObjectExtensions.cs" />
     <Compile Include="Assets\Tiled2Unity\Scripts\Runtime\GPUInstancing.cs" />

@@ -2,14 +2,14 @@
 using UnityEditor;
 using System.Collections.Generic;
 
-[CustomEditor(typeof(Layer))]
+[CustomEditor(typeof(BlockLayer))]
 public class layerEditorEscene : Editor
 {
 
     void OnSceneGUI()
     {
         HandleUtility.AddDefaultControl(GUIUtility.GetControlID(FocusType.Passive));
-        Layer t = target as Layer;
+        BlockLayer t = target as BlockLayer;
 
         if (t.show)
         {
@@ -58,8 +58,8 @@ public class layerEditorEscene : Editor
                 int minX = Mathf.Min(t.initX, ex);
                 int minY = Mathf.Min(t.initY, ey);
 
-                Handles.DrawSolidRectangleWithOutline(new Rect(minX * Layer.BlockSize, minY * Layer.BlockSize,
-                    ((maxX - minX) * Layer.BlockSize) + Layer.BlockSize, ((maxY - minY) * Layer.BlockSize) + Layer.BlockSize),
+                Handles.DrawSolidRectangleWithOutline(new Rect(minX * BlockLayer.BlockSize, minY * BlockLayer.BlockSize,
+                    ((maxX - minX) * BlockLayer.BlockSize) + BlockLayer.BlockSize, ((maxY - minY) * BlockLayer.BlockSize) + BlockLayer.BlockSize),
                     new Color32(0, 0, 128, 128), new Color32(0, 0, 224, 128));
             }
 
@@ -67,14 +67,14 @@ public class layerEditorEscene : Editor
 
             for (int i = 0; i < t.width; i++)
             {
-                vs.Add(new Vector3(t.X + i * Layer.BlockSize, t.Y, -10));
-                vs.Add(new Vector3(t.X + i * Layer.BlockSize, t.Y - (t.height * Layer.BlockSize), -10));
+                vs.Add(new Vector3(t.X + i * BlockLayer.BlockSize, t.Y, -10));
+                vs.Add(new Vector3(t.X + i * BlockLayer.BlockSize, t.Y - (t.height * BlockLayer.BlockSize), -10));
             }
 
             for (int i = 0; i < t.height; i++)
             {
-                vs.Add(new Vector3(t.X, t.Y - t.height * Layer.BlockSize + i * Layer.BlockSize, -10));
-                vs.Add(new Vector3(t.X + (t.width * Layer.BlockSize), t.Y - t.height * Layer.BlockSize + i * Layer.BlockSize, -10));
+                vs.Add(new Vector3(t.X, t.Y - t.height * BlockLayer.BlockSize + i * BlockLayer.BlockSize, -10));
+                vs.Add(new Vector3(t.X + (t.width * BlockLayer.BlockSize), t.Y - t.height * BlockLayer.BlockSize + i * BlockLayer.BlockSize, -10));
             }
 
             Handles.DrawLines(vs.ToArray());
@@ -101,10 +101,10 @@ public class layerEditorEscene : Editor
                 {
                     for (int j = 0; j < t.height; j++)
                     {
-                        if (t.map[i + (t.width * j)] >= 0 && Layer.AllBlocks != null && Layer.AllBlocks.Length > t.map[i + (t.width * j)])
+                        if (t.map[i + (t.width * j)] >= 0 && BlockLayer.AllBlocks != null && BlockLayer.AllBlocks.Length > t.map[i + (t.width * j)])
                         {
-                            x = t.X + (i * Layer.BlockSize) + (Layer.BlockSize / 2);
-                            y = t.Y - t.height * Layer.BlockSize + ((j * Layer.BlockSize) + (Layer.BlockSize / 2));
+                            x = t.X + (i * BlockLayer.BlockSize) + (BlockLayer.BlockSize / 2);
+                            y = t.Y - t.height * BlockLayer.BlockSize + ((j * BlockLayer.BlockSize) + (BlockLayer.BlockSize / 2));
 
                             v = new Vector3(x, y, 0);
 
@@ -112,8 +112,8 @@ public class layerEditorEscene : Editor
 
                             if (blockInd >= 0)
                             {
-                                c = Layer.AllBlocks[blockInd].Color;
-                                vertices = Layer.AllBlocks[blockInd].Vertices;
+                                c = BlockLayer.AllBlocks[blockInd].Color;
+                                vertices = BlockLayer.AllBlocks[blockInd].Vertices;
                                 newVert = new Vector3[vertices.Length];
 
                                 for (int p = 0; p < vertices.Length; p++)
